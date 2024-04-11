@@ -2,7 +2,7 @@ import InputField from "../components/InputField";
 
 const Contact = () => {
   return (
-    <div className="flex h-screen flex-col justify-center items-center gap-10 px-10 bg-gradient-to-r from-white to-violet-400">
+    <div id="Contact" className="flex h-screen flex-col justify-center items-center gap-10 px-10 bg-gradient-to-r from-white to-violet-400">
       <h1 className="text-4xl font-bold text-center">Contact Us</h1>
       <InputField title="Name" placeholder="John Doe" />
       <InputField title="Email" placeholder="Email" />
