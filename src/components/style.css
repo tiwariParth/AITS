@@ -1,0 +1,9 @@
+ul {
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  ul.show {
+    max-height: 500px; /* Adjust according to your needs */
+  }
